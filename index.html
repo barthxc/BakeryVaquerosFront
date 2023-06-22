@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--BOOTSTRAP LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+    <title>Bakery Vaqueros</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="icon" href="img/iconos/LogoBV-1.png">
+
+</head>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook">
+            <!-- Las 3 rayas del preloader-->
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/iconos/LogoBV-2.png" alt="">
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#" id="enlace-equipo" class="btn-header">Equipo</a>
+                    <a href="#" id="enlace-servicio" class="btn-header">Servicios</a>
+                    <a href="#" id="enlace-trabajo" class="btn-header">Trabajos</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                    <a href="html/login.html" id="login"><img src="img/Login.png" class="img-login" /></a> 
+
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>BAKERY VAQUEROS</h1>
+            <h2>"El sabor del oeste en cada bocado"</h2>
+        </div>
+    </header>
+    <main>
+        <section class="team contenedor" id="equipo">
+            <h3>Nuestro equipo</h3>
+            <p class="after">Conoce a nuestros cow-boys</p>
+            <div class="section">
+                <div class="content-section">
+                    <div class="people">
+                        <img src="img/Clay.png" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>CLAY tres dedos</h4>
+                        <p>Pastelero</p>
+                    </div>
+                </div>
+                <div class="content-section">
+                    <div class="people">
+                        <img src="img/Thomas.png" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Thomas Revolver Jhonson</h4>
+                        <p>Panadero</p>
+                    </div>
+                </div>
+                <div class="content-section">
+                    <div class="people">
+                        <img src="img/Doc.png" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Doc cara de póker</h4>
+                        <p>Horneador</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="servicio">
+            <div class="contenedor">
+                <h3>Nuestros servicios</h3>
+                <p class="after">"Calidad justa, pero fiable"</p>
+                <div class="servicios">
+                    <div class="caja-servicios">
+                        <img src="img/iconos/pan.png" alt="">
+                        <h4>Panadería y pastelería</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="img/iconos/alcohol.png" alt="">
+                        <h4>Alcohol de contrabando</h4>
+                        <p>Le disparamos a la ley seca</p>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="img/iconos/bufalo.png" alt="">
+                        <h4>Busca y captura</h4>
+                        <p>vivo o muerto, los rufianes son nuestros</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work contenedor" id="trabajo">
+            <h3>Nuestro trabajo</h3>
+            <p class="after">Echa el lazo a nuestros productos</p>
+            <div class="botones-work">
+                <ul>
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='pan'>Pan</li>
+                    <li class="filter" data-nombre='reposteria'>Reposteria</li>
+                    <li class="filter" data-nombre='miscelaneos'>Misceláneos</li>
+                </ul>
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work reposteria">
+                    <div class="img-work">
+                        <img src="img/pastel1.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Pastel de manzana</h4>
+                    </div>
+                </div>
+                <div class="cont-work reposteria">
+                    <div class="img-work">
+                        <img src="img/pastel2.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Pastel de nueces</h4>
+                    </div>
+                </div>
+                <div class="cont-work reposteria">
+                    <div class="img-work">
+                        <img src="img/pastel3.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Empanada de bufalo</h4>
+                    </div>
+                </div>
+                <div class="cont-work pan">
+                    <div class="img-work">
+                        <img src="img/pan1.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Pan de masa madre</h4>
+                    </div>
+                </div>
+                <div class="cont-work pan">
+                    <div class="img-work">
+                        <img src="img/pan2.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Pan de cereales</h4>
+                    </div>
+                </div>
+                <div class="cont-work pan">
+                    <div class="img-work">
+                        <img src="img/pan3.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Pan de Espelta</h4>
+                    </div>
+                </div>
+                <div class="cont-work miscelaneos">
+                    <div class="img-work">
+                        <img src="img/harina.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Harina</h4>
+                    </div>
+                </div>
+                <div class="cont-work miscelaneos">
+                    <div class="img-work">
+                        <img src="img/trigo.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Semillas de trigo</h4>
+                    </div>
+                </div>
+                <div class="cont-work miscelaneos">
+                    <div class="img-work">
+                        <img src="img/azucar.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Azúcar</h4>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Poner el formulario aquí o fuera del main-->
+
+        <section>
+            <div class="contenedor">
+                <h3>Haz un pedido</h3>
+                <form id="formulario" action="/guardarMostrar" method="POST">
+                    <!--Pedido y cantidad-->
+                    <div class="row mb-3">
+                        <div id="selectProducto" class="col-6">
+                          <div class="form-outline">
+                            <select id="producto" name="nombreproducto" id="producto" class="form-control">
+                                <option value="pan-masa">Pan de masa</option>
+                                <option value="pan-cereales">Pan de cereales</option>
+                                <option value="pan-espelta">Pan espelta</option>
+                                <option value="pastel-manzana">Pastel de Manzana</option>
+                                <option value="pastel-nueces">Pastel de Nueces</option>
+                                <option value="pastel-bufalo">Pastel de bufalo</option>
+                                <option value="harina">Harina KG</option>
+                                <option value="trigo">Trigo KG</option>
+                                <option value="azucar">Azugar KG</option>
+                            </select>
+                            <label class="form-label" for="producto">Pedido</label>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="form-outline">
+                            <input type="number" name="cantidadproducto" id="cantidad" class="form-control" placeholder="0"/>
+                            <label class="form-label" for="cantidad">cantidad</label>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="form-outline">
+                              <button type="button" onclick="cloneSelect()">Quiero más!</button>
+                            </div>
+                          </div>
+                      </div>
+                      <hr>
+
+
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                    <div class="row mb-3">
+                      <div class="col">
+                        <div class="form-outline">
+                          <input id="nombre" name="nombre" type="text" class="form-control" placeholder="" />
+                          <label class="form-label" for="nombre">Nombre</label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-outline">
+                          <input id="alias" name="alias" type="text" class="form-control" placeholder=""/>
+                          <label class="form-label" for="alias">Alias de Vaquero</label>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!-- Text input -->
+                    <div class="form-outline mb-4">
+                      <input id="direccion" name="direccion" type="text" class="form-control" placeholder="" />
+                      <label class="form-label" for="direccion">dirección</label>
+                    </div>
+                  
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input type="email" name="email" id="email" class="form-control" />
+                      <label class="form-label" for="email">Email</label>
+                    </div>
+                  
+                    <!-- Number input -->
+                    <div class="form-outline mb-4">
+                      <input type="number" name="telefono" id="telefono" class="form-control" />
+                      <label class="form-label" for="telefono">Teléfono</label>
+                    </div>
+                  
+                    <!-- Message input -->
+                    <div class="form-outline mb-4">
+                      <textarea id="informacion" name="informacion" class="form-control" rows="4" placeholder=""></textarea>
+                      <label class="form-label" for="informacion">Información adiccional</label>
+                    </div>
+                  
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                      <input class="form-check-input mx-3" type="radio" value="llevar" name="opcionPedido" id="llevar"/>
+                      <label class="form-check-label" for="llevar">llevar</label>
+                      <input class="form-check-input mx-3" type="radio" value="recoger" name="opcionPedido" id="recoger"/>
+                      <label class="form-check-label" for="recoger">recoger</label>
+                    </div>
+                   
+                    
+                  
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-4">enviar</button>
+                  </form>
+            </div>
+        </section>
+    </main>
+
+<!--PRUEBA DE POP UP
+<input type="button" value = "Test the alert" onclick="alert('Alert this pages');" />
+
+
+POR AQUI PRUEBA-->
+
+
+
+    <footer id="contacto">
+        <div class="footer">
+            <div class="marca-logo">
+                <img src="img/iconos/LogoBV-1.png" alt="">
+            </div>
+            <div class="iconos">
+               <p class="titulo-footer">BAKERY VAQUEROS</p>
+            </div>
+            <p>La pasión y nuestro revolver es lo que nos distingue del resto</p>
+            <a id="github" href="https://github.com/barthxc">GitHub BartHxC</a>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/selectbutton.js"></script>
+    <!--<script src="js/jquery.js"></script>-->
+    <script src="js/validate.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/placeholder.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+:root{
+  --color1: rgb(219,144,.5);
+  --color2: rgba(23, 180, 83, 0.877);
+  --color3: rgba(11,194,211, 0.623);
+  --fondo: #0c0f16;
+  --titulos: 33px;
+  --margenes: 60px;
+  --espacios: 10px;
+  --espacios-contenido:45px;
+  --subtitulos:15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Implementación de Fonts: TEXAT BOLD Y DE RYE PARA NUMEROS*/ 
+
+@font-face {
+  font-family: TEXAT;
+  src: url(../fonts/TEXAT\ BOLD.otf);
+}
+
+@font-face {
+  font-family: Frontier;
+  src: url(../fonts/Frontier\ Town.ttf);
+}
+
+body {
+  font-family: 'texat';
+  background: var(--fondo);
+  color: var(--color1);
+  font-family: TEXAT;
+}
+.centrado{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#llevar{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+
+#recoger{
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+
+.informacion-pedido{
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius:20px;
+  background-color:rgba(12, 15, 22,0.8);
+}
+
+a{
+  border-radius: 20px;
+  padding:0.5%;
+  background-color: rgba(12, 15, 22,0.8);
+  color: var(--color1);
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: rgba(12, 15, 22,1);
+}
+
+h3{
+  padding-top: 30px;
+}
+
+#errorbutton{
+  border-radius: 20px;
+  padding:0.5%;
+  background-color: #ffff;
+  color: var(--color1);
+  text-decoration: none;
+  color: var(--fondo);
+}
+
+#errorbutton:hover{
+  background-color: rgba(12, 15, 22,1);
+  color: var(--color1);
+}
+
+#loginbutton{
+  color: #fff;
+  background-color: var(--color1);
+}
+
+#loginbutton:hover{
+  color:var(--color1);
+  background-color: #fff;
+}

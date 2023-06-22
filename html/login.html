@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!--BOOTSTRAP LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous">
+    <link rel="icon" href="../img/iconos/LogoBV-1.png">
+
+</head>
+<body id="login">
+    <div class="centrado">
+    <h1>Portal de login</h1>
+    <!-- Aquí puedes agregar el contenido específico de tu página -->
+    <hr>
+    <div class="col-12">
+       <form action="../index.html" method="POST">
+        <div class="form-outline">
+            <label class="form-label col-6" for="usuario">Usuario</label>
+            <input id="usuario" name="usuario" type="text" class="col-6" placeholder=""/>
+            <label class="form-label col-6" for="password">Contraseña</label>
+            <input id="password" name="password" type="password" class="col-6" placeholder=""/>
+          </div>
+          <br>
+          <button type="submit" id="loginbutton"class="btn btn-primary btn-block mb-4">Entrar</button>
+        </form>
+    </div>
+
+    
+</div>
+<!--Jquery-->
+<script src="../js/jquery.js"></script>    
+</body>
+</html>
+
+
